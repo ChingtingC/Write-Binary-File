@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[]) {
 
-    if (argc < 8) {
+    if (argc != 8) {
         printf("USAGE: ./a.out a00 a01 a02 a10 a11 a12 output_name.bin");
         return 1;
     }
